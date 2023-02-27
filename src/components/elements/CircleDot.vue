@@ -2,16 +2,18 @@
 export default {
   name: "circle-dot",
   props: ['radius', 'color', 'top', 'left'],
+
 }
 </script>
 
 <template>
-  <div class="`absolute w-[${radius}px]
+  <div :class="`
+    absolute w-[${radius}px]
     h-[${radius}px]
-    bg-black
+    bg-[${color}]
     rounded-full
     top-[${top}px]
     left-[${left}px]
-    before:content-[' ']`"
-  ></div>
+    before:content-[' ']
+  `"></div>
 </template>

@@ -12,7 +12,6 @@ export default {
 <template>
   <div class="w-full">
     <div class="flex justify-center relative gap-8">
-      <CircleDot radius="200" top="20" left="50" color="#111111" />
       <EllipsisImage src="/src/assets/images/person1.png" alt="Person 1"  />
       <EllipsisImage class="mt-14" src="/src/assets/images/person2.png" alt="Person 2"  />
       <EllipsisImage class="mt-14" src="/src/assets/images/person3.png" alt="Person 3"  />

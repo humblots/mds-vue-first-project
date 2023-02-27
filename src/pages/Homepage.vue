@@ -1,11 +1,9 @@
-<script>
-import DefaultButton from "@/components/buttons/DefaultButton.vue";
-import Navbar from "@/components/navbar/Navbar.vue";
+<script lang="ts">
 import Jumbotron from "@/components/jumbotron/Jumbotron.vue";
 
 export default {
   name: "Homepage",
-  components: {Jumbotron, Navbar, DefaultButton}
+  components: {Jumbotron}
 }
 </script>
 
