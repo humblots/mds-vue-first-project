@@ -10,7 +10,7 @@ export default defineComponent({
 
 <template>
   <div class="bg-secondary flex flex-col items-center pb-[122px]">
-    <h1 class="text-white text-center font-extrabold leading-[50px] text-[41px] w-[580px] mt-[79px]">
+    <h1 class="section-title text-white text-center w-[580px] mt-[79px]">
       MyDigitalSchool, c’est aussi un blog avec des conseils</h1>
     <div class="flex justify-center gap-8 mt-[61px]">
       <BlogCard published-at="4 mars" src="/src/assets/images/blog1.png" title="Comment devenir développeur web"/>

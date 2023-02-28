@@ -7,3 +7,13 @@
         font-family: 'Anek Bangla', system-ui, sans-serif;
     }
 }
+
+@layer components {
+    .section-title {
+        @apply font-extrabold text-[41px] leading-[50px]
+    }
+
+    .box-shadow {
+        @apply shadow-[0_0_50px_-10px_rgba(0,0,0,0.3)]
+    }
+}
