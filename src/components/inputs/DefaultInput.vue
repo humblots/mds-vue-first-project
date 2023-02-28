@@ -16,7 +16,7 @@ export default defineComponent({
   <div class="relative">
     <input
         :placeholder="placeholder"
-        class="w-full p-4 pl-10 text-sm text-grey border border-grey-300 rounded-full"
+        class="w-full p-4 pl-6 text-sm text-grey border border-grey-300 rounded-full"
         required
         type="email">
     <SubmitButton class="absolute right-1.5 bottom-1.5" text="Envoyer"/>

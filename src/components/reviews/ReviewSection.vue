@@ -24,7 +24,7 @@ export default defineComponent({
           text="J’ai passé clairement mes 2 meilleurs années scolaires à  MyDigitalSchool.
           L’ambiance, les intervenants et les locaux m’ont permis de m’épanouir,
           gros big up pour la connexion internet ! ❤️"
-          user-picture="/public/images/user1.png"
+          user-picture="/images/user1.png"
           user-status="Étudiant en 2015"
           username="Mélanie"/>
 
@@ -33,7 +33,7 @@ export default defineComponent({
           text="J’ai passé clairement mes 2 meilleurs années scolaires à  MyDigitalSchool.
           L’ambiance, les intervenants et les locaux m’ont permis de m’épanouir,
           gros big up pour la connexion internet ! ❤️"
-          user-picture="/public/images/user2.png"
+          user-picture="/images/user2.png"
           user-status="Étudiante en 2015"
           username="Léo"/>
     </div>
