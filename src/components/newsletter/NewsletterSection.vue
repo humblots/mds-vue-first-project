@@ -15,7 +15,9 @@ export default defineComponent({
         l’école</h2>
       <p class="text-[15px] leading-[20px] text-center w-[431px] mb-[63px]">Nous t’enverrons le programme complet, et
         quelqu’un prendra contact avec toi pour savoir tes besoins</p>
-      <DefaultInput class="w-[409px]" placeholder="Entre ton adresse e-mail ici"/>
+      <form>
+        <DefaultInput class="w-[409px]" placeholder="Entre ton adresse e-mail ici"/>
+      </form>
     </div>
     <div class="triangle"></div>
   </div>

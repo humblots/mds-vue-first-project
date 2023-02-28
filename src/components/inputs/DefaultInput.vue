@@ -1,11 +1,10 @@
 <script lang="ts">
 import {defineComponent} from "vue";
-import DefaultButton from "@/components/buttons/DefaultButton.vue";
 import SubmitButton from "@/components/buttons/SubmitButton.vue";
 
 export default defineComponent({
   name: "DefaultInput",
-  components: {SubmitButton, DefaultButton},
+  components: {SubmitButton},
   props: {
     placeholder: {type: String},
     submitText: {type: String}
