@@ -1,8 +1,13 @@
 <script lang="ts">
-export default {
+import {defineComponent} from "vue";
+
+export default defineComponent({
   name: "ellipsis-image",
-  props: ['src', 'alt'],
-}
+  props: {
+    src: {type: String, required: true},
+    alt: {type: String, required: true}
+  },
+})
 </script>
 
 <template>

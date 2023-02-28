@@ -1,8 +1,20 @@
 <script lang="ts">
-export default {
+import {defineComponent} from "vue";
+
+export default defineComponent({
   name: "nav-link",
-  props: ['href', 'text', 'isActive'],
-}
+  props: {
+    href: {
+      type: String, required: true
+    },
+    text: {
+      type: String, required: true
+    },
+    isActive: {
+      type: String, required: true
+    },
+  }
+})
 </script>
 
 <template>

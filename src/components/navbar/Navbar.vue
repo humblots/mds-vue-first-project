@@ -1,11 +1,12 @@
 <script lang="ts">
 import DefaultButton from "@/components/buttons/DefaultButton.vue";
 import Navlink from "@/components/navbar/Navlink.vue";
+import {defineComponent} from "vue";
 
-export default {
+export default defineComponent({
   name: "nav-bar",
   components: {Navlink, DefaultButton}
-}
+})
 </script>
 
 <template>

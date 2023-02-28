@@ -1,12 +1,12 @@
 <script lang="ts">
 
 import EllipsisImage from "@/components/images/EllipsisImage.vue";
-import CircleDot from "@/components/elements/CircleDot.vue";
+import {defineComponent} from "vue";
 
-export default {
+export default defineComponent({
   name: "jumbotron-team",
-  components: {CircleDot, EllipsisImage},
-}
+  components: {EllipsisImage},
+})
 </script>
 
 <template>

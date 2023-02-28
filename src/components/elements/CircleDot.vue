@@ -1,19 +1,24 @@
 <script lang="ts">
-export default {
-  name: "circle-dot",
-  props: ['radius', 'color', 'top', 'left'],
+import { defineComponent } from "vue";
+import type Circle from "@/types/elements/Circle";
 
-}
+export default defineComponent({
+  name: "circle-dot",
+  props: {
+    circle: {
+      type: Object as ()=> Circle
+    }
+  }
+})
 </script>
 
 <template>
   <div :class="`
-    absolute w-[${radius}px]
-    h-[${radius}px]
-    bg-[${color}]
+    absolute w-[${circle.radius}px]
+    h-[${circle.radius}px]
+    bg-[${circle.color}]
     rounded-full
-    top-[${top}px]
-    left-[${left}px]
-    before:content-[' ']
+    top-[${circle.top}px]
+    left-[${circle.left}px]
   `"></div>
 </template>

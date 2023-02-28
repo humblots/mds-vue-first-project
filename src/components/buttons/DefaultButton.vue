@@ -1,8 +1,21 @@
 <script setup lang="ts"></script>
-<script>
-export default {
-  props: ['text', 'href'],
-}
+
+<script lang="ts">
+import {defineComponent} from "vue";
+
+export default defineComponent({
+  name: 'default-button',
+  props: {
+    text: {
+      type: String,
+      required: true,
+    },
+    href: {
+      type: String,
+      required: true,
+    }
+  }
+})
 </script>
 
 <template>

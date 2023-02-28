@@ -1,11 +1,12 @@
 <script lang="ts">
 import DefaultButton from "@/components/buttons/DefaultButton.vue";
 import JumbotronTeam from "@/components/jumbotron/JumbotronTeam.vue";
+import {defineComponent} from "vue";
 
-export default {
+export default defineComponent({
   name: "jumbotron",
   components: {JumbotronTeam, DefaultButton}
-}
+})
 </script>
 
 <template>
