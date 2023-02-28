@@ -10,7 +10,7 @@ export default defineComponent({
 </script>
 
 <template>
-<div class="flex flex-col items-center mt-[260px]">
+<div class="flex flex-col items-center">
   <h1 class="text-primary text-xl font-bold text-center">Plusieurs spécialités</h1>
   <h2 class="text-[41px] leading-[50px] font-extrabold text-black w-[540px] text-center">Les domaines les plus demandés dans le digital</h2>
   <div class="flex gap-8 mt-[99px]">

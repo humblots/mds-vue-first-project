@@ -9,7 +9,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <div class="mt-48">
+  <div>
     <h2 class="text-primary text-xl font-bold text-center">Des campus partout en France</h2>
     <div class="flex justify-center gap-12 mt-11">
       <Campus src="/src/assets/images/campus1.png" student-count="2000" />
