@@ -12,10 +12,10 @@ export default defineComponent({
 <template>
   <div class="w-full">
     <div class="flex justify-center relative gap-8">
-      <EllipsisImage src="/src/assets/images/person1.png" alt="Person 1"  />
-      <EllipsisImage class="mt-14" src="/src/assets/images/person2.png" alt="Person 2"  />
-      <EllipsisImage class="mt-14" src="/src/assets/images/person3.png" alt="Person 3"  />
-      <EllipsisImage src="/src/assets/images/person4.png" alt="Person 4"  />
+      <EllipsisImage alt="Person 1" src="/public/images/person1.png"/>
+      <EllipsisImage alt="Person 2" class="mt-14" src="/public/images/person2.png"/>
+      <EllipsisImage alt="Person 3" class="mt-14" src="/public/images/person3.png"/>
+      <EllipsisImage alt="Person 4" src="/public/images/person4.png"/>
     </div>
   </div>
 </template>

@@ -11,7 +11,7 @@ export default defineComponent({
 
 <template>
   <nav class="flex flex-row items-center justify-between p-8">
-    <img alt="MDS Logo" src="@/assets/images/mds-logo.png"/>
+    <img alt="MDS Logo" src="../../../public/images/mds-logo.png"/>
     <ul class="flex flex-row">
       <Navlink :isActive="true" class="nav-link" href="#" text="Accueil"/>
       <Navlink href="#" text="Les programmes"/>

@@ -13,12 +13,12 @@ export default defineComponent({
     <h1 class="section-title text-white text-center w-[580px] mt-[79px]">
       MyDigitalSchool, c’est aussi un blog avec des conseils</h1>
     <div class="flex justify-center gap-8 mt-[61px]">
-      <BlogCard published-at="4 mars" src="/src/assets/images/blog1.png" title="Comment devenir développeur web"/>
-      <BlogCard published-at="5 avril" src="/src/assets/images/blog2.png"
+      <BlogCard published-at="4 mars" src="/public/images/blog1.png" title="Comment devenir développeur web"/>
+      <BlogCard published-at="5 avril" src="/public/images/blog2.png"
                 title="UX vs UI Design, quelle est la différence ?"/>
-      <BlogCard published-at="9 avrirl" src="/src/assets/images/blog3.png"
+      <BlogCard published-at="9 avrirl" src="/public/images/blog3.png"
                 title="Top 10 des métiers du digital en 2023"/>
-      <BlogCard published-at="4 mars" src="/src/assets/images/blog1.png" title="Comment devenir développeur web"/>
+      <BlogCard published-at="4 mars" src="/public/images/blog1.png" title="Comment devenir développeur web"/>
     </div>
   </div>
 </template>
