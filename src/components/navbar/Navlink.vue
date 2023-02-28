@@ -11,7 +11,7 @@ export default defineComponent({
       type: String, required: true
     },
     isActive: {
-      type: String, required: true
+      type: Boolean
     },
   }
 })
@@ -19,12 +19,12 @@ export default defineComponent({
 
 <template>
   <li class="nav-link">
-    <a :class="isActive === 'true' ? 'text-black' : ''"  :href="href">{{text}}</a>
+    <a :class="isActive ? 'text-black' : ''" :href="href">{{ text }}</a>
   </li>
 </template>
 
 <style scoped>
-  .nav-link {
-    @apply text-grey font-bold mx-4
-  }
+.nav-link {
+  @apply text-grey font-bold mx-4
+}
 </style>

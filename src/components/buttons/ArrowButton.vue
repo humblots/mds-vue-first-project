@@ -6,13 +6,12 @@ export default defineComponent({
   props: {
     orientation: {type: String},
     canPress: {type: Boolean, required: true},
-    onPress: {type: Function}
   }
 })
 </script>
 
 <template>
-  <button :class="orientation === 'left' ? 'rotate-180' : ''" @click="onPress">
+  <button :class="orientation === 'left' ? 'rotate-180' : ''">
     <svg :class="canPress ? 'text-primary' : 'text-grey'" class="w-16 h-16" fill="none"
          stroke="currentColor"
          stroke-width="1.5"

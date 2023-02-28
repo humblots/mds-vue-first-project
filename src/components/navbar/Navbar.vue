@@ -5,18 +5,18 @@ import {defineComponent} from "vue";
 
 export default defineComponent({
   name: "nav-bar",
-  components: {Navlink, DefaultButton}
+  components: {Navlink, DefaultButton},
 })
 </script>
 
 <template>
   <nav class="flex flex-row items-center justify-between p-8">
-    <img src="@/assets/images/mds-logo.png" alt="MDS Logo" />
+    <img alt="MDS Logo" src="@/assets/images/mds-logo.png"/>
     <ul class="flex flex-row">
-      <Navlink class="nav-link" text="Accueil" href="#" isActive="true" />
-      <Navlink text="Les programmes" href="#" />
-      <Navlink text="Notre blog" href="#" />
+      <Navlink :isActive="true" class="nav-link" href="#" text="Accueil"/>
+      <Navlink href="#" text="Les programmes"/>
+      <Navlink href="#" text="Notre blog"/>
     </ul>
-    <DefaultButton href="#" text="M'inscrire" />
+    <DefaultButton href="#" text="M'inscrire"/>
   </nav>
 </template>
